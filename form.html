@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>I ❤ forms</title>
+
+
+	<link rel="stylesheet" href="css/input-styling.css" type="text/css">
+
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+
+<!-- 	<link rel="stylesheet" href="css/meyer-reset.css" type="text/css">
+ -->
+	<!-- All JavaScript at the bottom, except this Modernizr build.
+    Modernizr enables HTML5 elements & feature detects for optimal performance.
+    Create your own custom Modernizr build: www.modernizr.com/download/ -->
+	<script src="js/libs/modernizr-2.5.3.min.js"></script>
+
+</head>
+
+<body>
+<section class="wrapper" id="contact-form">
+<form name="input" action="html_form_action.asp" method="post">
+		<fieldset>
+			<h2>Request a Tour</h2>
+
+			<hr>
+
+			<p>If you wish to join Intrepid Labs and become part fo the community. Request a tour!</p>
+		<div class="title" >
+			<label for="first-name">First name:</label>
+			<input id="first-name" placeholder="First Name"><br>
+		</div>
+
+		<div class="title" >
+			<label for="last-name">Last name:</label>
+			<input id="last-name" placeholder="Last Name"><br>
+		</div>		
+
+		<div class="title" >
+			<label for="company">Company:</label>
+			<input id="company" placeholder="Company"><br>
+		</div>
+
+		<div class="title" >
+			<label for="business-email">Business email:</label>
+			<input id="business-email" placeholder="xxx@yyy.zzz"><br>
+		</div>
+
+		<div class="title" >
+			<label for="business-phone">Business phone:</label>
+			<input id="business-phone" placeholder="xxx-xxx-xxxx"><br>
+		</div>
+
+		<div class="title" >
+			<label for="company-size">Company size:</label>
+<!-- 			<input id="company-size" placeholder="please select"><br>
+ -->			<select name="size">
+				<option value="<5"><5</option>
+				<option value="5-10">5-10</option>
+				<option value="10-15">10-15</option>
+				<option value="15-20">15-20</option>
+				<option value=">20">>20</option>
+			</select>
+		</div>
+
+		<div class="title" >
+			<label for="Ideal-moving-date">Ideal moving date:</label>
+			<input id="Ideal-moving-date" placeholder="mm/dd/yyyy"><br>
+		</div>
+
+		<div class="title" >
+			<label for="job-role">Job role:</label>
+			<input id="job-role" placeholder="Job role"><br>
+		</div>
+
+		<div class="title" >
+			<label for="widgets">What sort of widgets do you make?</label>
+			<input id="widgets" placeholder="Please describe"><br>
+		</div>
+
+		<div class="title" >
+			<label for="hear">How did you hear about Intrepid Labs?</label>
+			<input id="hear" placeholder="Please explain"><br>
+		</div>
+
+		<div class="title" >
+			<label for="workspace">Do you have any workspace sharing experience?</label>
+			<input id="workspace" placeholder="Please describe"><br>
+		</div>
+
+		<p><input id="submit" type="submit" value="Request a Tour"></p>
+
+		</fieldset>
+
+	</form>
+
+</section> <!-- end #contact -->
+
+</body>
+</html>

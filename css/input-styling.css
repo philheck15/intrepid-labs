@@ -1,0 +1,155 @@
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/* Meyer Reset ends here*/
+
+@font-face {
+	font-family:'LeagueGothic';
+	src: url('type/LeagueGothic.eot'); /* IE9 Compatibility Modes */
+	src: url('type/LeagueGothic.ept?#iefix') format('embedded-opentype'); /* IE6-IE8 */ 
+	src: url('type/LeagueGothic.woff') format('woff'); /* Modern Browsers */
+	src: url('type/LeagueGothic.ttf') format('truetype'); /* Safari, Android, iOS */
+	src: url('type/LeagueGothic.svg#LeagueGothic') format('svg'); /* Legacy iOS */
+}
+
+body {
+	font-family: LeagueGothic, Arial, verdana, sans-serif;
+	font-size:0.8em;
+}
+
+div {
+	border-bottom: 1px solid #efefef;
+	margin:0.625em;
+	padding-bottom:0.625em;
+}
+
+.wrapper {
+	width:300px;
+}
+
+h2 {
+	font-size:1.3em;
+	text-transform:uppercase;
+	margin:0.625em 0.625em 1.25em 0.625em;
+	color:rgb(89,89,89);
+	text-align: center;
+}
+
+p {
+	margin:0.625em 0.625em 1.25em 0.625em;
+	line-height: 1.5em;
+}
+
+hr {
+	width:280px;
+}
+
+label p {
+	margin:0.625em 0.625em 1.25em 0.625em;
+	line-height: 1.5em;
+}
+
+fieldset {
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 0.3125em;
+	padding: 0.3125em 0.625em;
+	margin:0.625em;
+	background-repeat: no-repeat;
+	background-position: 0.5em 0.5625em;
+
+}
+
+.title {
+	font-size: 1em;
+	color: rgb(90,88,84);
+	display:block;
+	width:280px;
+	text-align:left;
+	padding-right:0.625em;
+	margin-bottom: 0.625em;}
+
+input {
+	width:270px;
+}
+
+#submit {
+	width: 280px;
+	text-align:center;
+	color: rgb(68,68,68);
+	text-shadow: 0px 1px 1px rgb(255,255,255);
+	border-bottom: 2px solid rgb(178,178,178);
+	border-radius: 6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	background-color: rgb(248,186,41);
+	background: -webkit-gradient(linear, left top, left bottom, from rgb(248,186,41), to(rgb(239,197,98)));
+	background: -moz-linear-gradient(top, rgb(248,186,41), rgb(239,197,98));
+	background: -o-linear-gradient(top, rgb(248,186,41), rgb(239,197,98));
+	background: -ms-linear-gradient(top, rgb(248,186,41), rgb(239,197,98);}
+
+#submit:hover {
+	color: rgb(51,51,51);
+	border: 1px solid rgb(164,164,164);
+	border-top: 2px solid rgb(178,178,178);
+	border-radius: 6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	background-color: rgb(248,186,41);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(224,171,48), to(#rgb(239,197,98)));
+	background: -moz-linear-gradient(top, rgb(224,171,48, #rgb(239,197,98));
+	background: -o-linear-gradient(top, rgb(224,171,48, #rgb(239,197,98));
+	background: -ms-linear-gradient(top, rgb(224,171,48, #rgb(239,197,98));}
+
+
+
+
+
